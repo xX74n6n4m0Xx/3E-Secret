@@ -1,16 +1,25 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        String palabra = "hello world";
+        Scanner x = new Scanner(System.in);
+        System.out.println("Enter Something lul");
+        String wew = x.nextLine();        
+        String palabra = wew;
         int j = 0;
-        char[] abc = "abcdefghijklmnopqrstuvwxyz ".toCharArray();
+        char[] abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ".toCharArray();
         String txt = "";
-
         while (true) {
+            if (j >= palabra.length()) {
+                break; 
+            }
             for (int i = 0; i < abc.length; i++) {
                 System.out.println(txt + abc[i]);
+               
                 if (abc[i] == palabra.charAt(j)) {
                     txt += abc[i];
-                    break;
+                    j += 1; 
+                    break; 
                 }
                 try {
                     Thread.sleep(20);
@@ -19,9 +28,9 @@ public class Main {
                 }
             }
             if (txt.equals(palabra)) {
-                break;
+                System.out.println("You Entered : "+wew);
+                break;     
             }
-            j += 1;
         }
     }
 }
