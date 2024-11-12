@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Enter Something lul");
       String wew = x.nextLine();
 String palabra = wew;
+        String beans = "just a test to see the lul";
         //this is to add the lul
         int j = 0;
         char[] abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ".toCharArray();
