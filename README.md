@@ -6,7 +6,7 @@
 `git.push`
 only 3E?
 
-Colons can be used to align columns.
+## my TOP chart of something movie i think.
 
 | Strongest?    | Weakest       | Noob  |
 | ------------- |:-------------:| -----:|
