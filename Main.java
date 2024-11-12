@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Enter Something lul");
-        String wew = x.nextLine();        
-        String palabra = wew;
+      
         //this is to add the lul
         int j = 0;
         char[] abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ".toCharArray();
